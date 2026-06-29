@@ -21,3 +21,4 @@ public class GeodesCracked1201 implements ModInitializer {
 		return new ResourceLocation(MOD_ID, path);
 	}
 }
+//belo
