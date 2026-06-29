@@ -1,5 +1,6 @@
 package net.bgdt.geodescracked1201;
 
+import net.bgdt.geodescracked1201.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.ResourceLocation;
@@ -13,6 +14,7 @@ public class GeodesCracked1201 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}
