@@ -4,7 +4,7 @@ import net.bgdt.geodescracked1201.GeodesCracked1201;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
-import org.intellij.lang.annotations.Identifier;
+import net.minecraft.util.Identifier;
 
 public class ModItems {
 
