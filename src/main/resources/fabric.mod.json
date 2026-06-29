@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "geodescracked1201",
+	"version": "${version}",
+	"name": "Geodes Cracked 1.201",
+	"description": "Geodes Cracked but it's 1.20.1!",
+	"authors": [
+		"BGDT"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://www.youtube.com/watch?v=1goAp0XmhZQ&list=RD1goAp0XmhZQ&start_radio=1"
+	},
+	"license": "MIT",
+	"icon": "assets/geodescracked1201/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bgdt.geodescracked1201.GeodesCracked1201"
+		],
+		"fabric-datagen": [
+			"net.bgdt.geodescracked1201.GeodesCracked1201DataGenerator"
+		]
+	},
+	"mixins": [
+		"geodescracked1201.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
